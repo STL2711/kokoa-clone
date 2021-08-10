@@ -1,3 +1,3 @@
 # Kokoa clone challange
 
-CSS got so much bertter!
+Html and CSS are so much fun!
