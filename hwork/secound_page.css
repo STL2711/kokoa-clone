@@ -1,0 +1,37 @@
+.music__main__img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  margin: 30px;
+  overflow: hidden;
+}
+.main__music__play {
+  width: 100%;
+}
+.main__music__play__time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.main__music__play__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0px;
+}
+.fa-redo-alt,
+.fa-random {
+  color: rgba(0, 0, 0, 0.3);
+}
+.main__music__play__bar {
+  display: flex;
+  justify-content: center;
+}
+.main__music__play__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}

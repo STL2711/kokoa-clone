@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: gainsboro;
+}
+
+div {
+  display: flex;
+  height: 300px;
+  width: 100vh;
+  justify-content: center;
+  margin: 10px;
+}
+#title {
+  height: 100px;
+}
+.box {
+  border: 5px solid white;
+  height: 100%;
+  width: 200px;
+}
+.littlebox {
+  width: 100%;
+  height: 100px;
+  margin: 0px;
+  position: relative;
+  top: 20px;
+  background-color: white;
+}
+div[id="firstbox"] {
+  background-color: aquamarine;
+}
+div[id="secondbox"] {
+  background-color: dodgerblue;
+}
+div[id="thridbox"] {
+  background-color: mediumslateblue;
+}
+div[id="fourthbox"] {
+  background-color: crimson;
+}
+h2 {
+  margin-left: 0px;
+}

@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkseagreen;
+}
+
+div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+}
+.line {
+  border: 2px solid black;
+}
+.littelbox {
+  border: 2px solid white;
+  height: 100px;
+  width: 100px;
+  background-color: darkorange;
+}
+#center {
+  border-style: dashed;
+  width: 400px;
+}

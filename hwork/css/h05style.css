@@ -1,0 +1,114 @@
+body {
+  border: 5px solid;
+  color: #f55a94;
+  background-color: rgb(46, 46, 46);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.site__Border {
+  border: 5px solid;
+  margin: 0px;
+  height: 100vh;
+}
+.top__Bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 50px;
+}
+.top__Barcolumn {
+  width: 33%;
+}
+.top__Barcolumn:first-child {
+  display: flex;
+
+  margin-right: 5px;
+}
+.top__Barcolumn:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.top__Barcolumn:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main__Box {
+  display: flex;
+  justify-content: center;
+  margin: 50px 50px;
+}
+.main__Box__big__Image {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  justify-content: center;
+  align-items: center;
+}
+.image__radius {
+  border: 2px solid;
+  border-radius: 30px;
+}
+.main__Box__big__Image i {
+  color: white;
+}
+
+.music__Textbox {
+  margin: 0px 10px;
+}
+.music__name {
+  display: block;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 10px;
+}
+.music__singer {
+  font-size: 20px;
+  margin: 0px 10px;
+}
+.music__Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 2px solid;
+  border-radius: 100px;
+  margin: 10px;
+  border-width: 2px 2px 5px 2px;
+}
+.music__Button:first-child {
+  width: 300px;
+  margin-left: 0px;
+}
+.music__box {
+  display: flex;
+
+  margin: 50px 0px;
+  width: 500px;
+}
+.small__Image {
+  height: 80px;
+  width: 80px;
+  border: 2px solid;
+}
+.music__BigBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#small_first {
+  background-color: tomato;
+}
+#small_second {
+  background-color: teal;
+}
+#small_third {
+  background-color: blueviolet;
+}
+#small_forth {
+  background-color: aquamarine;
+}

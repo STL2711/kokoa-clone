@@ -1,0 +1,18 @@
+#too_small {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vh;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+@media screen and (min-height: 500px) {
+  #too_small {
+    display: none;
+  }
+}

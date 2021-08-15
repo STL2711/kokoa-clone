@@ -1,0 +1,63 @@
+.book_main {
+  display: flex;
+  margin: 0px 40px;
+  height: 350px;
+  flex-direction: column;
+}
+
+.main_info {
+  display: flex;
+}
+.main_info__img {
+  width: 150px;
+  height: 215px;
+  margin: 0px 20px 0px 0px;
+  align-items: center;
+  justify-content: center;
+}
+.star_rate {
+  color: var(--green);
+  margin: 10px 0px;
+}
+.main_btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_small {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  font-weight: 500;
+}
+
+.btn_bottom {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+}
+.btn_check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: var(--green);
+}
+.btn_buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  background-color: var(--green);
+  border-radius: 10px;
+}

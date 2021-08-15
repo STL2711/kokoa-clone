@@ -1,0 +1,63 @@
+@keyframes swing {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+@keyframes stretch {
+  25% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(2);
+  }
+  75% {
+    transform: scaleY(1);
+  }
+}
+body {
+  background-color: #6abcbf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  margin: 100px;
+}
+.radius {
+  background-color: white;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin: 30px;
+}
+.radiusMove {
+  animation: swing 1s ease-in-out infinite;
+}
+.stick {
+  background-color: white;
+  width: 20px;
+  height: 100px;
+  margin: 5px;
+  animation: stretch 1s ease-in-out infinite;
+}
+.stick:nth-child(1) {
+  animation-delay: 0ms;
+}
+.stick:nth-child(2) {
+  animation-delay: 50ms;
+}
+.stick:nth-child(3) {
+  animation-delay: 100ms;
+}
+.stick:nth-child(4) {
+  animation-delay: 150ms;
+}
+.stick:nth-child(5) {
+  animation-delay: 200ms;
+}
